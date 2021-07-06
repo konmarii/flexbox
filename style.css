@@ -25,6 +25,8 @@ header > :last-child {
 
 main {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .sidebar {
@@ -33,13 +35,34 @@ main {
 }
 
 .green {
+  background-color: green;
   max-width: 700px;
   flex-grow: 1;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .yellow-box {
   flex-basis: 200px;
   height: 130px;
   background-color: yellow;
+  margin: 10px;
+}
+
+footer {
+  background-color: blue;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blue-box {
+  background-color: lightblue;
+    width: 45%;
+    max-width: 600px;
+    height: 40px;
+    margin: 10px;
 }
